@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -392,11 +397,11 @@
 			]
 		},
 		"contracts/LilouFace.sol": {
-			"keccak256": "0x6599e6837741868af5ebf419cc0e017ea502bc5f62d1961e7cea5f23b6acf66f",
+			"keccak256": "0xa646d18014e27919a1c5ba643ced472633a27ca0986d7590a5d637d632170dac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6ae903ee14603aa9112021aded4522f8a6a2e5ee45343e6687e15094d1edbb03",
-				"dweb:/ipfs/QmNre9gFcGBJuZY7PaVEsjjgmMaAJ4P4F3NTGF69wksU4D"
+				"bzz-raw://4f65e73420f979fcca91b72949830622eea05232544035dd9107257cbecafd78",
+				"dweb:/ipfs/QmbdcwxXMiorup3Z3PxoB6vq95PTX32rPQXwu5WECpYRP9"
 			]
 		}
 	},

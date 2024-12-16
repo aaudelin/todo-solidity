@@ -14,7 +14,11 @@ contract LilouFace is ERC721 {
     mapping(address owner => mapping(address operator => bool status)) private _operators;
 
     constructor() {
-        
+        _balances[0x73096Ed178C96e7096Ad3329Fd092be3D16A725E] = 1;
+        _owners[424242] = 0x73096Ed178C96e7096Ad3329Fd092be3D16A725E;
+
+        _balances[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = 1;
+        _owners[121212] = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     }
 
     function balanceOf(address _owner) external view returns (uint256) {

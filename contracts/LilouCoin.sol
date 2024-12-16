@@ -3,7 +3,7 @@ pragma solidity 0.8.26;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract LilouToken is IERC20 {
+contract LilouCoin is IERC20 {
 
     mapping(address account => uint256) private _balances;
     mapping(address owner => mapping(address spender => uint256)) private _allowances;

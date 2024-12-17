@@ -51,6 +51,8 @@ contract LilouFace is ERC721 {
             revert UnauthorizedAddress(_from, msg.sender, _tokenId);
         }
 
+        _approvals[_tokenId] = address(0);
+
         _balances[_from] -= 1;
         _balances[_to] += 1;
         
@@ -60,10 +62,6 @@ contract LilouFace is ERC721 {
     }
 
     function approve(address _approved, uint256 _tokenId) external payable {
-        if (_approved == address(0)) {
-            revert InvalidAddress(_approved);
-        }
-
         address owner = _owners[_tokenId];
         if (msg.sender != owner
             && _operators[owner][msg.sender] == false

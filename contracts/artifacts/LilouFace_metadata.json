@@ -397,11 +397,11 @@
 			]
 		},
 		"contracts/LilouFace.sol": {
-			"keccak256": "0xa646d18014e27919a1c5ba643ced472633a27ca0986d7590a5d637d632170dac",
+			"keccak256": "0xb456c268cdaa1ec75e7c3d863dd9ccda9959d0136c412892fcb4ee46f94d8876",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4f65e73420f979fcca91b72949830622eea05232544035dd9107257cbecafd78",
-				"dweb:/ipfs/QmbdcwxXMiorup3Z3PxoB6vq95PTX32rPQXwu5WECpYRP9"
+				"bzz-raw://dde2e7da9c3fc012a478b86417076ac5c7d0d61322cf9c592d2bc8a9bc58aaf2",
+				"dweb:/ipfs/QmbjrRmY2Y42wh8r5fVV8LqEjcttGCHX2aJydFEGaZ4mbJ"
 			]
 		}
 	},

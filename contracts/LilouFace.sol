@@ -51,14 +51,15 @@ contract LilouFace is ERC721 {
             revert UnauthorizedAddress(_from, msg.sender, _tokenId);
         }
 
-        _approvals[_tokenId] = address(0);
-
         _balances[_from] -= 1;
         _balances[_to] += 1;
         
         _owners[_tokenId] = _to;
 
         emit Transfer(_from, _to, _tokenId);
+
+        _approvals[_tokenId] = address(0);
+        emit Approval(_to, address(0), _tokenId);
     }
 
     function approve(address _approved, uint256 _tokenId) external payable {

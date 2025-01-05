@@ -20,7 +20,7 @@ contract LilouCoin is IERC20 {
         name = "Lilou Coin";
         decimals = 2;
         _totalSupply = 42_000_000 * (10 ** decimals);
-        _balances[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = _totalSupply/2;
+        _balances[0x29F2D60B0e77f76f7208FA910C51EFef98480501] = _totalSupply/2;
         _balances[0x73096Ed178C96e7096Ad3329Fd092be3D16A725E] = _totalSupply/2;
         emit Transfer(address(0), address(this), _totalSupply);
     }

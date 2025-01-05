@@ -343,11 +343,11 @@
 			]
 		},
 		"contracts/LilouCoin.sol": {
-			"keccak256": "0x1a6ca30d89eca678a9421bdb8e2abfce1c63eded1d18ea514244cf8ba73a2276",
+			"keccak256": "0x66c72bfce00e5b420c7039d4a3b91bb77d985def538c4a2fa78391cbd65c6770",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://848cec0e6ea38d04839ae8400f9f5132921b82f907e3f3a4829e5b37997d14b6",
-				"dweb:/ipfs/QmbeJ9iP4RHbmdFXkzPpKBM3jL5BM86ELMuBpFwqe4X2LQ"
+				"bzz-raw://de63c99658d75a0d16792b7e3277d10609e9e4e20d19a569bb63e158fbffc5e4",
+				"dweb:/ipfs/QmfC5TurA4M9MQguyW1v9mQw4ZBbQPiev1xhT4tXrm94b6"
 			]
 		}
 	},
